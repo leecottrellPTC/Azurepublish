@@ -12,7 +12,7 @@ public class HotelApplication {
 
 	@RequestMapping(value="/",method=RequestMethod.GET)
 	public String getRespond(){
-		return "<h1>It works</h1>";
+		return "<h1>It works </h1>";
 	}
 
 
