@@ -12,8 +12,6 @@
 	<artifactId>azurehotel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>azurehotel</name>
-	<appname>azurehotel</appname>
-	<resourceGroup>DefaultResourceGroup-CUS</resourceGroup>
 	<description>azure hotel</description>
 	<properties>
 		<java.version>11</java.version>
