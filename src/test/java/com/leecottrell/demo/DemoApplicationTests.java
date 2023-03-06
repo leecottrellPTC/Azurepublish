@@ -1,10 +1,10 @@
-package com.leecottrell.azurehotel;
+package com.leecottrell.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AzurehotelApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
