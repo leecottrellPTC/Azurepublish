@@ -36,6 +36,7 @@ public class RoomController {
         getReservations(@RequestParam(value="roomnum", defaultValue="0")int roomnum){
        // Collection<Room> results = reservations.values();
         List<Room> response = new ArrayList<>();
+        
 
         switch(roomnum){
             case 0://all reservations in the liswt
