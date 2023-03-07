@@ -1,10 +1,10 @@
-package com.leecottrell.demo;
+package com.leecottrell.hotel;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class HotelApplicationTests {
 
 	@Test
 	void contextLoads() {
