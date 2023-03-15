@@ -49,15 +49,15 @@ public class RoomController {
     }
 
     @RequestMapping(value="/rooms", method=RequestMethod.POST)
-    public ResponseEntity<Room> postReservation(@RequestBody String reservation)
+    public ResponseEntity<Room> postReservation(@RequestBody Room reservation)
     {
-        ObjectMapper mapper = new ObjectMapper();
-        Room response = new Room(0, "Error in reservation");
+        //ObjectMapper mapper = new ObjectMapper();
+        Room response = reservation;//new Room(0, "Error in reservation");
 
 
        
         try{
-            response = mapper.readValue(reservation, Room.class);
+           // response = mapper.readValue(reservation, Room.class);
             if(reservations.get(response.getRoomNum()) == null){
                 //room is empty
                 reservations.put(response.getRoomNum(), response);
