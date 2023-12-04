@@ -1,7 +1,7 @@
 package com.leecottrell.hotel.Rooms;
 
 public class Room {
-    private int roomNum;
+    private int roomNum=0;
     private String guest;
 
     public Room() {
